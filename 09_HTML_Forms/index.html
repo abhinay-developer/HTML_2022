@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- text -->
+    <div>
+
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName">
+    </div>
+
+    <!-- email -->
+    <div>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+    </div>
+    <!-- password-->
+    <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+    </div>
+
+
+    <!-- number -->
+    <div>
+        <label for="moblileNumber"> Mobile Number</label>
+        <input type="number" name="moblileNumber" id="moblileNumber">
+    </div>
+    <div>
+        <!-- radio buttons-->
+        <label for="gender">Gender</label>
+
+        <input type="radio" name="gender" id="male" value="male" checked> <span>Male</span>
+        <input type="radio" name="gender" id="female" value="female"> <span>Fe Male</span>
+    </div>
+
+    <div>
+        <!-- text area-->
+        <textarea cols="40"   rows="10">
+              enter address
+        </textarea>
+    </div>
+    <!--select  option value-->
+    
+    
+      <div>
+          <label for="country">Country</label>
+          <select name="country" id="country">
+             <option value="IND">India</option>
+             <option value="AUS">Australia</option>
+             <option value="ENG">England</option>
+             <option value="PAK">Pakisthan</option>
+          </select>
+      </div>
+ 
+      <!-- Check Boxes-->
+      <div>
+          <label for="languagesKnown">Technologies Known </label>
+             <input type="checkbox" name="css" id="css"> <span>CSS</span>
+             <input type="checkbox" name="html" id="html"> <span>html</span>
+             <input type="checkbox" name="js" id="js"> <span>js</span>
+             <input type="checkbox" name="ts" id="ts"> <span>ts</span>
+      </div>
+
+      <!-- Date Picker-->
+
+      <div>
+          <label for="date">Date</label>
+          <input type="date" name="date" id="date">
+      </div>
+
+      <div>
+          <label for="serach"></label>
+          <input type="search" name="search" id="search">
+      </div>
+</body>
+
+</html>
